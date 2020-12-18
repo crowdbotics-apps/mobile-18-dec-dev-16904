@@ -32,6 +32,7 @@ export default class Blank extends React.Component {
       <TextInput
         placeholder="Sample text input placeholder"
         multiline={true}
+        style={styles.TextInput_3}
         value={this.state.TextInput_3}
         onChangeText={nextValue => this.setState({ TextInput_3: nextValue })}
       />
@@ -42,8 +43,6 @@ export default class Blank extends React.Component {
         <View />
         <View />
         <View>
-          <Text>Sample text content</Text>
-          <Text>Sample text content</Text>
           <Text>Sample text content</Text>
         </View>
         <View>
@@ -58,10 +57,14 @@ export default class Blank extends React.Component {
         </View>
       </View>
       <View style={styles.View_11}>
+        <View>
+          <Text>Sample text content</Text>
+        </View>
         <View />
         <View />
-        <View />
-        <View />
+        <View>
+          <Text>Sample text content</Text>
+        </View>
         <View />
         <View>
           <Button title="Press me!" onPress={() => alert("Pressed!")} />
@@ -74,7 +77,7 @@ export default class Blank extends React.Component {
 const styles = StyleSheet.create({
   View_1: {},
   Button_2: {},
-  TextInput_3: {},
+  TextInput_3: { height: 100 },
   View_4: { flexDirection: "row" },
   View_5: {},
   View_6: {},
@@ -83,8 +86,6 @@ const styles = StyleSheet.create({
   View_9: {},
   View_10: {},
   Text_110: {},
-  Text_111: {},
-  Text_112: {},
   View_113: {},
   Text_110: {},
   Text_111: {},
@@ -95,9 +96,11 @@ const styles = StyleSheet.create({
   Text_112: {},
   View_11: { flexDirection: "row" },
   View_5: {},
+  Text_111: {},
   View_6: {},
   View_7: {},
   View_8: {},
+  Text_112: {},
   View_9: {},
   View_10: {},
   Button_93: {}
