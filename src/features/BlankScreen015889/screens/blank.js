@@ -47,28 +47,10 @@ export default class Blank extends React.Component {
         </View>
         <View>
           <Text>Sample text content</Text>
-          <Text>Sample text content</Text>
-          <Text>Sample text content</Text>
-        </View>
-        <View>
-          <Text>Sample text content</Text>
-          <Text>Sample text content</Text>
-          <Text>Sample text content</Text>
-        </View>
-      </View>
-      <View style={styles.View_11}>
-        <View>
-          <Text>Sample text content</Text>
-        </View>
-        <View />
-        <View>
-          <Button title="Press me!" onPress={() => alert("Pressed!")} />
         </View>
         <View>
           <Text>Sample text content</Text>
         </View>
-        <View />
-        <View />
       </View>
     </View>
   )
@@ -88,20 +70,6 @@ const styles = StyleSheet.create({
   Text_110: {},
   View_113: {},
   Text_110: {},
-  Text_111: {},
-  Text_112: {},
   View_114: {},
-  Text_110: {},
-  Text_111: {},
-  Text_112: {},
-  View_11: { flexDirection: "row" },
-  View_5: {},
-  Text_111: {},
-  View_6: {},
-  View_7: {},
-  Button_93: {},
-  View_8: {},
-  Text_112: {},
-  View_9: {},
-  View_10: {}
+  Text_112: {}
 })
