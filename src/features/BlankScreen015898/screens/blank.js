@@ -24,7 +24,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_4: "", TextInput_5: "", Switch_6: true }
+  state = { TextInput_4: "", TextInput_5: "", Switch_6: false }
 
   render = () => (
     <View>
